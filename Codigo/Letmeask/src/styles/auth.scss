@@ -11,14 +11,17 @@
         flex-direction: column;
         justify-content: center;
         padding: 120px 80px;
+        
         img{
             max-width: 320px;
         }
+        
         strong{
             font: 700 36px 'Poppins', sans-serif;
             line-height: 42px;
             margin-top: 16px;
         }
+        
         p{
             font-size: 24px;
             line-height: 32px;
@@ -26,6 +29,7 @@
             color: #f8f8f8;
         }
     }
+   
     main{
         flex: 8;
 
@@ -34,6 +38,7 @@
         align-items: center;
         justify-content: center;
     }
+    
     .main-content{
         display: flex;
         flex-direction: column;
@@ -46,8 +51,15 @@
     > img{
         align-self: center;
     }
-
+    
+    h2{
+        font-size: 24px;
+        margin: 64px 0 24px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
     form{
+        
         input{
             height: 50px;
             border-radius: 8px;
@@ -64,6 +76,17 @@
             width: 100%;
         }
     }
+
+    p{
+        font-size: 14px;
+        color: #737380;
+        margin-top: 16px;
+        
+        a{
+            color: #e559f9;
+        }
+    }
+
     .create-room{
         margin-top: 64px;
         height: 50px;
